@@ -1,0 +1,114 @@
+@media only screen and (max-width: 960px) {
+
+  .menu {
+    display:none;
+    margin:0;
+    top:0;
+    width:100%;
+    background:#fff;
+    padding:10px 0;
+    position: absolute;
+    z-index: 1000;
+  }
+
+    .menu-text {
+      width:100%;
+      float:none;
+      padding:5px 0;
+      margin:5px 0;
+      border-radius:0;
+      font-size: 20px;
+      }
+      
+       .menu-hide a {display:block;}
+
+       .menu-open a {
+        display:block;
+        font-size: 35px;
+      }    
+
+
+.menu.show{
+    margin: 10px 0;
+    display:block;
+  }
+  
+
+.logo{
+  float: none;
+  margin-left: 0;
+  position: relative;
+  margin: 0 auto;
+  display:none;
+}
+
+.logo h1{
+  text-align: center;
+}
+
+.col-half{
+  width: 100%;
+  text-align: center;
+
+}
+
+.col-half img{
+  display: none;
+}
+
+.col-one-third{
+  width: 100%;
+}
+
+.baner-text{
+  margin-top: 80px;
+}
+
+.baner-text span{
+  font-size: 20px;
+}
+
+.baner-text h2{
+  width: 100%;
+  font-size: 30px;
+}
+
+
+.connect{
+  padding: 5px;
+  z-index: 2;
+}
+
+.contact-center{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button{
+  display: block;
+  margin: 0 auto;
+  float: none;
+}
+
+.parallax1{
+  height: 50%;
+}
+
+.bg{
+  z-index: 10;
+  
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+.logo{
+  margin:0;
+}
+
+.menu{
+  margin-right: 20px;
+}
+
+}

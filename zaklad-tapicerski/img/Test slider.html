@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///C:/Users/Seba/Desktop/html/Pomoce/PgwSlider-master/home.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+	<title>Test slider</title>
+	<link rel="stylesheet" type="text/css" href="./Test slider_files/pgwslider.min.css">
+	<script src="./Test slider_files/jquery.min.js.pobrane"></script>
+	<script src="./Test slider_files/pgwslider.min.js.pobrane"></script>
+
+<style type="text/css">
+	
+div{
+	text-align: left;
+	display: inline-block;
+}
+
+</style>
+</head>
+<body>
+<div>
+		<div class="pgwSlider wide"><div class="ps-current" style="height: 0px;"><ul><li class="elt_1" style="display: none; opacity: 0; z-index: 1;"><img src="./Test slider_files/slider1.jpg" alt="Paris, France"></li><li class="elt_2" style="z-index: 1; display: none; opacity: 0;"><img src="./Test slider_files/slider2.jpg" alt="Montréal, QC, Canada"></li><li class="elt_3" style="z-index: 2; display: list-item; opacity: 1;"><img src="./Test slider_files/slider3.jpg" alt="Shanghai, China"></li><li class="elt_4" style="z-index: 1; display: none;"><a href="http://www.nyc.gov/" target="_blank"><img src="./Test slider_files/slider1.jpg" alt="New York, NY, USA"></a></li></ul><span class="ps-caption" style="display: inline;"><b>Shanghai, China</b></span></div><ul class="ps-list">
+    <li class="elt_1" style="cursor: pointer; opacity: 0.6; width: 25%; height: 0px;"><img src="./Test slider_files/slider1.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"><span>Paris, France</span></li>
+    <li class="elt_2" style="cursor: pointer; opacity: 0.6; width: 25%; height: 0px;"><img src="./Test slider_files/slider2.jpg" alt="Montréal, QC, Canada" data-large-src="img/slider2.jpg"><span>Montréal, QC, Canada</span></li>
+    <li class="elt_3" style="cursor: pointer; opacity: 1; width: 25%; height: 0px;">
+        <img src="./Test slider_files/slider3.jpg">
+        <span>Shanghai, China</span>
+    </li>
+    <li class="elt_4" style="cursor: pointer; opacity: 0.6; width: 25%; height: 0px;">
+        <a href="http://www.nyc.gov/" target="_blank">
+            <img src="./Test slider_files/slider1.jpg">
+	    <span>New York, NY, USA</span>
+        </a>
+    </li>
+</ul></div>
+</div>
+
+		<script>
+		$(document).ready(function() {
+		    $('.pgwSlider').pgwSlider();
+		    $('.pgwSlider').destroy();
+		});
+		</script>
+
+</body></html>

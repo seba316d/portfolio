@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+Koniec resetu CSS
+*/
+
+/*Style Globalne*/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1,4em;
+	font-size: 50%
+}
+html{
+background-color: #1f1f1e;
+    display: block;
+    background-image:url('../img/background.png');
+    background-size: cover;         /* IE8 i niżej nie obsłuży tego */
+    -moz-background-size: cover;    /* ani tego */
+    background-position: center;
+}
+
+h1{
+	font-size: 54px;
+	color: #dbdcd8;
+}
+
+h2{
+	font-size: 40px;
+	color: #dbdcd8;
+}
+
+strong{
+	font-weight: 600;
+}
+
+section{
+	clear: both;
+	overflow: auto;
+	padding: 40px 0;
+
+}
+
+p{
+	font-size: 20px;
+	color: #dbdcd8;
+}
+
+header{
+	margin-top: 200px;
+}
+
+
+
+
+/* REszta styli*/
+
+.logo{
+	font-size: 90px;
+}
+.logo a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#color-logo {
+	color: #b2d016;
+}
+
+.main-menu{
+		display: block;
+		width: 100%;
+		margin: 30px 0;
+		font-size: 30px;
+
+	}
+
+	.main-menu ul{
+		display: block;
+		text-align: center;
+		background-color: rgba(0,0,0,0.7);
+	}
+
+	.main-menu ul li a{
+			display: block;
+			padding: 10px 50px;
+			text-decoration: none;
+			color: #b2d016;
+		}
+
+		.main-menu ul li a:hover{
+		color: #ffffff
+	}
+
+
+@media screen and (min-width: 960px){
+	.main-menu{
+		display: block;
+		width: 100%;
+		margin: 30px 0;
+		font-size: 30px;
+
+	}
+
+	.main-menu ul{
+		display: block;
+		text-align: left;
+		background-color: rgba(0,0,0,0.7);
+	}
+
+	.main-menu ul li{
+		display: inline-block;	
+	}
+
+	.main-menu ul li a{
+		display: block;
+		padding: 10px 50px;
+		text-decoration: none;
+		color: #b2d016;
+	}
+
+
+	.main-menu ul li a:hover{
+		color: #ffffff
+	}
+
+	.main-menu ul li a.active{
+		color: #ffffff
+	}
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.container2{
+	margin: 0 40px;
+}
+
+.center-text{
+	text-align: center;
+}
+
+/*Sekcja srodkowa baner i tekst*/
+
+
+.left-text{
+	text-align: left;
+}
+
+.col-half{
+	display: block;
+	float: left;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.col-half img{
+	width: 100%
+}
+
+
+.col-one-third{
+	width: 100%;
+	float: left;
+	display: block;
+	padding: 10px 0;
+	margin: 0;
+}
+
+@media screen and (min-width: 960px){
+	.col-half{
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+.col-half img{
+	width: 550px; 
+	height: 300px
+}
+
+.col-one-third{
+	width: 33%;
+	float: left;
+	display: block;
+}
+
+.contact-form{
+	margin-left: 160px;
+
+}
+.space{
+	margin-left: 120px;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.space1{
+	margin-left: 160px;
+	padding-bottom: 30px;
+}
+
+	}
+
+
+.gallery-container{
+	float: left;
+	width: 300px;
+}
+
+.gallery-container img:hover{
+	-webkit-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    transform: scale(2, 2);
+    transition-duration: 0.9s;
+    -webkit-transition-duration: 0.9s; /* Safari */
+    box-shadow: 5px 5px 5px #fefefe;  
+}
+
+.text-down{
+	padding-bottom: 60px;
+}
+
+.text-down2{
+	padding-bottom: 30px;
+}
+
+.text{
+ 	width: 70%;
+}
+ 
+
+
+.contact-form input{
+	padding: 5px 10px;
+	width: 190px;
+	border:none;
+	background-color: rgba(255,255,255,0.1);
+	margin-bottom: 8px;
+	color: #FFFFFF;
+}
+
+.contact-form textarea{
+	padding: 5px 10px;
+	width: 190px;
+	height: 100px;
+	border:none;
+	background-color: rgba(255,255,255,0.1);
+	color: #FFFFFF;
+	
+}
+
+.contact-form button{
+	border:none;
+	background-color: inherit;
+	color: #b2d016;
+	font-size: 30px;
+	margin-left: 128px;
+	display: inline-block;
+}
+
+.button-color:hover{
+	color: #FFFFFF;
+}
+
+.color{
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.1);
+}
+
+

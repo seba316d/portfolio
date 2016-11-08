@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/responsive.css">
+	<title>Darmowy TeamSpeak 3 </title>
+	<meta name="Robots" content="index, fallow">
+	<meta name="keywords" content="Darmowy TeamSpeak3, kanały teamspeak3, tillnexttime, ts3, komunikator, teamspeak3, tnt, ts3-tnt.pl, ">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+	
+<script src="script/jquery-3.1.1.min.js"></script>
+	
+<script>
+	
+$(document).ready(function(){
+  $('.menu-open, .menu-hide').click(function(){
+    $('.menu').toggleClass('show');  
+  });//open click
+});//document ready end
+
+</script>
+
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.bg').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.bg').addClass('sticky');
+	} else {
+		$('.bg').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+
+
+	<div class="parallax1">
+		
+		<div class="bg" id="bg">
+			<div class="logo">
+				<h1><span class="logcolor">ts3-</span>tnt.pl</h1>
+			</div>
+
+			<div class=" menu-text menu-open">
+					<a>Menu</a>
+				</div>
+			<div class="menu">
+			
+				<div class="menu-text menu-hide">
+					<a>Zamknij</a>
+				</div>
+				<div class="menu-text">
+					<a href="#"> Strona Główna</a>
+				</div>
+				<div class="menu-text">
+					<a href="#status">Status</a>
+				</div>
+				<div class="menu-text">
+					<a href="#about-us">O nas</a>
+				</div>
+				<div class="menu-text">
+					<a href="#admin">Administracja</a>
+				</div>
+				<div class="menu-text">
+					<a href="#">Wikipedia</a>
+				</div>
+				<div class="menu-text">
+					<a href="#contact">Kontakt</a>
+				</div>
+				</div>
+
+				<div style="clear: both;"></div>
+				<div style="overflow: auto;"></div>
+
+			</div>
+			
+			<div class="container">
+			<div class="baner-text">
+
+				<h2>TeamSpeak3</h2>
+				<span>Darmowy serwer dla graczy</span>
+						<div class="connect"> 
+							<a href="ts3server://ts3-tnt.pl">Połącz</a>
+						</div>
+			</div>
+		</div>
+	</div>
+
+			<div class="status" id="status">
+				<div class="container">
+
+					<div class="col-half"> 
+						<img src="img/ts3.png" alt="zjęcie teamspeak">
+					</div>
+					<div class="col-half col-half-text">
+						<h3>Statystyki Serwera</h3>
+						<p>Adres IP: <br>
+						Status Serwera: <br>
+						Serwer aktywny od:  <br>
+						Użytkowników online: <br>
+						Obciążenie sieci: <br>
+						Utworzonych kanałów: <br>
+						</p>
+					</div>
+
+						<div style="clear: both;"></div>
+						
+				</div>
+			</div>
+
+
+	<div class="parallax2"></div>
+		<div class="about-us" id="about-us">
+			<div class="container">
+
+				<div class="col-half col-half-text"> 
+					<h3>O nas</h3>
+					<p>
+					Jesteśmy małym ale z dużym doświadczeniem darmowym serwerem głosowym. <br> Jesteśmy z wami już od 2012 roku i nieustannie dążymy do polepszenia oferowanych przez nas usług. Nasz sukces opiera się na precyzji oraz pasji. W każdym przypadku użytkownik jest zawsze w cetrum naszych działań. 
+					</p>
+				</div>
+
+				<div class="col-half col-half-img">
+					<img src="img/ts3.png" alt="zjęcie teamspeak">
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+	
+	<div class="parallax3"></div>
+		<div class="admin" id="admin">
+			<div class="container">
+
+				<div class="col-one-third-text">
+					<p> Administracja Serwera </p>
+				</div>
+				<div class="border"></div>
+
+				<div class="col-one-third"> 
+					<img src="img/ts3-ico.png" alt="Twarz ze słuchawką">
+					<h4 id="cot-text-w">Właściciel</h4>
+					<h3 id="cot-text1">Frodo</h3>
+					<div class="border-cot"></div>
+					<p>Zajmuje się serwerem od strony technicznej.<br>
+					Prowadzi Serwer od 2012 roku<br>
+					</p>
+				</div>
+
+				<div class="col-one-third">
+
+					<img src="img/ts3-ico.png">
+					<h4 id="cot-text-r">ROOT</h4>
+					<h3 id="cot-text1">Nazgorg</h3>
+					<div class="border-cot"></div>
+					<p>Zajmuje się serwerem od strony technicznej oraz użytkownika.
+					Jest Administratorem od 2012 roku<br>
+					Bardzo spokojny i opanowany gość, <br>jeżeli masz problem z konfiguracją klienta ts3 napisz do niego. <p>
+				</div>
+
+				<div class="col-one-third">
+					<img src="img/ts3-ico.png">
+					<h4 id="cot-text-h">Head Admin</h4>
+					<h3 id="cot-text1">Radek</h3>
+					<div class="border-cot"></div>
+
+					<p>Jest to burak który wjebał się na admina.<br>
+					Jest głównym zadaniem jest banowanie ludzi oraz wkurwianie właściciela</p>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+
+	<div class="parallax4"></div>
+		<div class="contact" id="contact">
+
+			<div class="container">
+
+				<div class="col-half col-half-img"> 
+				<img src="img/ts3-ico-1.png" alt="Zdjęcie słuchawek">
+				<p class="contact-center">Masz problem ? <br>
+				Wejdź na TeamSpeak3 lub napisz do nas wiadomość</p>
+				</div>
+
+				<div class="col-half">
+						<h3 class="contact-text">Formularz Kontaktowy</h3>
+						<form action="" >
+						<div class="form-group long1">
+						<input type="text" placeholder="Nick z TS" name="name" id="name"><br>
+						 </div>
+						 <div class="form-group long2">
+							<input type="text" placeholder="Email" name="email" id="email"><br>
+						 </div>
+						<textarea name="message" placeholder="Napisz Wiadomość"></textarea><br>
+						<button type="submit" class="button button-dark" id="wyslij">Prześlij</button>
+						</form>
+				</div>
+				<div style="clear: both;"></div>
+
+			</div>
+		</div>
+
+	<div class="footer">
+
+			<div class="container">
+
+				<p>Projekt wykonany przez ts3-tnt.pl. &copy Wszelkie prawa zastrzeżone</p>
+
+			</div>
+	</div>
+
+</body>
+</html>
